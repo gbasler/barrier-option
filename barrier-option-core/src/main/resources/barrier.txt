@@ -1,0 +1,10 @@
+CalculationDate 10.02.2017
+Volatility 0.2
+Dividends 0
+S0 100
+Strike 100
+Barrier 70
+ObservationDate1 10.08.2017
+ObservationDate2 10.02.2018
+Rate 0.0
+Expiry 10.02.2018

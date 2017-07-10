@@ -1,0 +1,27 @@
+# These files are text and should be normalized (convert crlf => lf)
+*.cmd     		text
+*.sbt	  		text
+*.md      		text
+*.ini     		text
+*.xml			text
+*.scala	  		text
+*.java	  		text
+*.proto			text
+*.conf	  		text
+*.properties  	text
+
+# the SBT release plugin writes windows line endings which conflicts with the default cr/lf settings
+version.sbt     !text
+
+# Excel files should be treated as binary
+# (binary is a macro for -text -diff)
+*.jar 		binary
+*.doc 		binary
+*.xls 		binary
+*.png		binary
+*.ppt		binary
+*.xlsx		binary
+*.xltx		binary
+*.xlsm		binary
+*.xltm		binary
+*.keystore 	binary
